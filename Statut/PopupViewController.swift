@@ -7,12 +7,17 @@
 //
 
 import Cocoa
+import WebKit
 
 class PopupViewController: NSViewController {
 
+    @IBOutlet weak var mainWebView: WebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        
+        mainWebView.mainFrame.loadRequest(NSURLRequest(URL: NSURL(string: "http://baidu.com")!))
     }
     
 }

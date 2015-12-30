@@ -11,7 +11,7 @@ We usually make OS X status bar app use `Electron`, which will build a high-capa
 ![](http://7mnoy7.com1.z0.glb.clouddn.com/statut%2Fscreenshot.png)
 
 ## Usage
-
+- `git clone https://github.com/djyde/Statut.git APP_NAME`
 - Configurate in `Settings.swift`
 - Modify the `info.plist` if needed
 - Change the `StatusBarButtonImage` if needed

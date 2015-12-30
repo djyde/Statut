@@ -28,12 +28,19 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         popover.contentViewController = PopupViewController(nibName: "PopupViewController", bundle: nil)
         
+        initialPopupSize()
+        
         eventMonitor = EventMonitor(mask: [.LeftMouseDownMask, .RightMouseDownMask]) { [unowned self] event in
             if self.popover.shown {
                 self.closePopover(event)
             }
         }
         eventMonitor?.start()
+    }
+    
+    func initialPopupSize(){
+        popover.contentSize.width = Settings.popupWidth
+        popover.contentSize.height = Settings.popupHeight
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

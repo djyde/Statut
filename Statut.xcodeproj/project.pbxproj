@@ -13,6 +13,7 @@
 		252709201C33AF2C00068C6D /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2527091E1C33AF2C00068C6D /* PopupViewController.swift */; };
 		252709211C33AF2C00068C6D /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2527091F1C33AF2C00068C6D /* PopupViewController.xib */; };
 		252709231C33C96900068C6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252709221C33C96900068C6D /* EventMonitor.swift */; };
+		252709251C33D49200068C6D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252709241C33D49200068C6D /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2527091E1C33AF2C00068C6D /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		2527091F1C33AF2C00068C6D /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
 		252709221C33C96900068C6D /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		252709241C33D49200068C6D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2527090D1C33AA1400068C6D /* AppDelegate.swift */,
 				252709111C33AA1400068C6D /* MainMenu.xib */,
 				2527091E1C33AF2C00068C6D /* PopupViewController.swift */,
+				252709241C33D49200068C6D /* Settings.swift */,
 				252709221C33C96900068C6D /* EventMonitor.swift */,
 				2527091F1C33AF2C00068C6D /* PopupViewController.xib */,
 				252709141C33AA1400068C6D /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				252709231C33C96900068C6D /* EventMonitor.swift in Sources */,
 				2527090E1C33AA1400068C6D /* AppDelegate.swift in Sources */,
+				252709251C33D49200068C6D /* Settings.swift in Sources */,
 				252709201C33AF2C00068C6D /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

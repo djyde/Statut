@@ -13,11 +13,13 @@ class PopupViewController: NSViewController {
 
     @IBOutlet weak var mainWebView: WebView!
     
+    let SETTINGS = [
+        "url": "http://localhost:2000"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        
-        mainWebView.mainFrame.loadRequest(NSURLRequest(URL: NSURL(string: "http://baidu.com")!))
+        mainWebView.mainFrame.loadRequest(NSURLRequest(URL: NSURL(string: SETTINGS["url"]! as String)!))
     }
-    
 }
